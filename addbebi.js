@@ -6,7 +6,7 @@ var main = function() {
 		url: 'bebi.txt',
 		dataType: 'text',
 		success: function (data) {
-			$('body').append(data);
+			$('p').append(data);
 		}
 	})
 }
