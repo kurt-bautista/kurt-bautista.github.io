@@ -1,5 +1,14 @@
 $(document).ready(function() {
 	alert("hello");
+	$.ajax({
+		async: false,
+		url: 'kurtv13.github.io/bebi.txt',
+		dataType: 'text',
+		success: function (data) {
+			$('p').append(data);
+			console.log("success");
+		}
+	});
 });
 
 /*var main = function() {
