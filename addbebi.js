@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$.ajax({
+	/*$.ajax({
 		async: true,
 		url: 'kurtv13.github.io/bebi.txt',
 		dataType: 'text',
@@ -7,5 +7,8 @@ $(document).ready(function() {
 			$('p').append(data);
 			console.log("success");
 		}
-	});
+	});*/
+	setInterval(function() {
+		$('p').append("BEBI");
+	}, 1000);
 });
