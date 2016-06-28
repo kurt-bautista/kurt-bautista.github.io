@@ -1,7 +1,9 @@
-$(document).ready(main);
+$(document).ready(function() {
+	alert("hello");
+});
 
-var main = function() {
-	/*$.ajax({
+/*var main = function() {
+	$.ajax({
 		async: false,
 		url: 'kurtv13.github.io/bebi.txt',
 		dataType: 'text',
@@ -9,6 +11,6 @@ var main = function() {
 			$('p').append(data);
 			console.log("success");
 		}
-	});*/
+	});
 	console.log("ggmehn");
-};
+};*/
