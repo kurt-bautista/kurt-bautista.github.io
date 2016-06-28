@@ -9,6 +9,6 @@ $(document).ready(function() {
 		}
 	});*/
 	setInterval(function() {
-		$('p').append("BEBI");
+		$('p').append("BEBI ");
 	}, 1000);
 });
