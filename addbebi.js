@@ -9,6 +9,6 @@ $(document).ready(function() {
 		}
 	});*/
 	setInterval(function() {
-		$('p').append("BEBI ULOL NANAY MO ");
-	}, 200);
+		$('p').append("BEBI ");
+	}, 400);
 });
