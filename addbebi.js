@@ -2,8 +2,8 @@ $(document).ready(main);
 
 var main = function() {
 	$.ajax({
-		async: true,
-		url: 'bebi.txt',
+		async: false,
+		url: 'kurtv13.github.io/bebi.txt',
 		dataType: 'text',
 		success: function (data) {
 			$('p').append(data);
