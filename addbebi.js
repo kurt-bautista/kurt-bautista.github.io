@@ -10,5 +10,5 @@ $(document).ready(function() {
 	});*/
 	setInterval(function() {
 		$('p').append("BEBI ");
-	}, 1000);
+	}, 200);
 });
