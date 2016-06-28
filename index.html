@@ -11,21 +11,6 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="addbebi.js"></script>
-		<script>
-			$(document).ready(main);
-
-			var main = function() {
-				$.ajax({
-					async: false,
-					url: 'kurtv13.github.io/bebi.txt',
-					dataType: 'text',
-					success: function (data) {
-						$('p').append(data);
-						console.log("success");
-					}
-				});
-			};
-		</script>
 	</head>
 
 	<body>
