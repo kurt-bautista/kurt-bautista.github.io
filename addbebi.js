@@ -7,6 +7,7 @@ var main = function() {
 		dataType: 'text',
 		success: function (data) {
 			$('p').append(data);
+			console.log("success");
 		}
 	})
 }
