@@ -10,6 +10,6 @@ $(document).ready(function() {
 	});*/
 	setInterval(function() {
 		$('p').append("BEBI ");
+		window.scrollTo(0,document.body.scrollHeight);
 	}, 400);
-	window.scrollTo(0,document.body.scrollHeight);
 });
