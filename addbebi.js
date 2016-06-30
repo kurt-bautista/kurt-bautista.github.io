@@ -11,4 +11,5 @@ $(document).ready(function() {
 	setInterval(function() {
 		$('p').append("BEBI ");
 	}, 400);
+	window.scrollTo(0,document.body.scrollHeight);
 });
